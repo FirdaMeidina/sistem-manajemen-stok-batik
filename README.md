@@ -1,6 +1,6 @@
 # Sistem Manajemen Stok Produk Batik
 
-Proyek ini dikembangkan sebagai bagian dari mata kuliah **Manajemen Proyek Informatika** di Universitas Pamulang.  
+Proyek ini dikembangkan sebagai bagian dari mata kuliah **Manajemen Proyek Informatika**.  
 Sistem ini bertujuan untuk membantu dalam pengelolaan stok produk batik secara efisien, mulai dari pencatatan, pemantauan jumlah stok, hingga pelaporan data barang keluar dan masuk.
 
 ---
