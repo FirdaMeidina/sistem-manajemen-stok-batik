@@ -1,0 +1,174 @@
+/* ====== GLOBAL STYLING ====== */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fdf7ef;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #3b1e00;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ====== NAVBAR ====== */
+.navbar {
+  background-color: #b5651d !important;
+  z-index: 1100;
+}
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  color: #fff !important;
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+.navbar-brand img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background: #fff;
+  padding: 3px;
+  object-fit: cover;
+}
+.navbar .nav-link:hover {
+  color: #f7c67b !important;
+}
+
+/* ====== SIDEBAR ====== */
+.sidebar {
+  background: #f7c67b;
+  height: 100vh;
+  padding: 20px 15px;
+  border-right: 4px solid #b5651d;
+  position: fixed;
+  top: 56px;
+  left: 0;
+  width: 230px;
+  z-index: 1000;
+  overflow-y: auto;
+}
+.sidebar a {
+  display: block;
+  color: #4e2505;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 8px;
+  padding: 10px 15px;
+  margin-bottom: 8px;
+  transition: all 0.3s ease;
+}
+.sidebar a:hover {
+  background-color: #b5651d;
+  color: white !important;
+  transform: translateX(5px);
+}
+.sidebar a.active {
+  background-color: #8a460f;
+  color: white !important;
+}
+
+/* ====== MAIN CONTENT AREA ====== */
+.main-content {
+  margin-left: 230px;
+  padding: 90px 30px 100px;
+  min-height: 100vh;
+  background-color: #fdf7ef;
+  transition: all 0.3s ease;
+}
+
+/* ====== CARD ====== */
+.card {
+  border: none;
+  border-radius: 14px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease;
+  background: #fff;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* ====== FOOTER ====== */
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 230px;
+  width: calc(100% - 230px);
+  background-color: #8b4105;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 0.9rem;
+  box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* ====== RESPONSIVE ====== */
+@media (max-width: 991px) {
+  .sidebar {
+    position: relative;
+    width: 100%;
+    top: 30;
+    border-right: none;
+    height: auto;
+  }
+  .main-content,
+  .dashboard-wrapper {
+    margin-left: 0;
+    padding: 65px 15px 80px;
+  }
+  .footer {
+    left: 0;
+    width: 100%;
+  }
+}
+@media (max-width: 576px) {
+  .navbar-brand {
+    font-size: 1rem;
+  }
+  .navbar-brand img {
+    height: 32px;
+    width: 32px;
+  }
+  .btn {
+    font-size: 0.85rem;
+  }
+}
+
+/* ====== ANIMATION ====== */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.fade-in {
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+/* ====== CHART STYLING ====== */
+.chart-container {
+  position: relative;
+  width: 100%;
+  height: 350px; /* tinggi tetap agar grafik tidak terlalu tinggi */
+}
+
+@media (max-width: 768px) {
+  .chart-container {
+    height: 280px; /* lebih kecil di layar HP */
+  }
+}
