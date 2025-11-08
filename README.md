@@ -56,4 +56,4 @@ GitHub Repository: [sistem-manajemen-stok-batik](https://github.com/FirdaMeidina
 
 ## 📅 Status Proyek
 
-Proyek sedang dalam tahap **pengembangan dan pengujian sistem**.
+Proyek telah selesai dan dinyatakan stabil pada tahap final release.
