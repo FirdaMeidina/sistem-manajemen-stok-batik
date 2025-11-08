@@ -1,0 +1,125 @@
+<h3 style="text-align:center;">LAPORAN PENJUALAN<br>Sistem Manajemen Stok Batik</h3>
+<p style="text-align:center;">Periode: 2025-11-07 s/d 2025-11-08</p>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <thead style="background-color:#f7c67b;">
+    <tr>
+      <th>#</th>
+      <th>Kode Transaksi</th>
+      <th>Tanggal</th>
+      <th>Produk</th>
+      <th>Jumlah</th>
+      <th>Harga Satuan</th>
+      <th>Subtotal</th>
+      <th>User</th>
+      <th>Keterangan</th>
+    </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>1</td>
+    <td>OUT1762588426</td>
+    <td>2025-11-08</td>
+    <td>Batik Couple Bambu Kuning</td>
+    <td>2</td>
+    <td>Rp 500.000</td>
+    <td>Rp 1.000.000</td>
+    <td>Firda</td>
+    <td>Terjual</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>OUT1762588918</td>
+    <td>2025-11-08</td>
+    <td>Batik Pria Lestari Hitam</td>
+    <td>4</td>
+    <td>Rp 200.000</td>
+    <td>Rp 800.000</td>
+    <td>Mei</td>
+    <td>Terjual</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>OUT1762588945</td>
+    <td>2025-11-08</td>
+    <td>Kemeja Dobby Sarimbit Hitam</td>
+    <td>15</td>
+    <td>Rp 250.000</td>
+    <td>Rp 3.750.000</td>
+    <td>Mei</td>
+    <td>Terjual</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>OUT1762588977</td>
+    <td>2025-11-08</td>
+    <td>Batik Pria Katun Foil Prada Hitam</td>
+    <td>3</td>
+    <td>Rp 200.000</td>
+    <td>Rp 600.000</td>
+    <td>Mei</td>
+    <td>Terjual</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>OUT1762589000</td>
+    <td>2025-11-08</td>
+    <td>Dress Batik Wanita Hitam</td>
+    <td>4</td>
+    <td>Rp 350.000</td>
+    <td>Rp 1.400.000</td>
+    <td>Mei</td>
+    <td>Terjual</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>OUT1762589057</td>
+    <td>2025-11-08</td>
+    <td>Batik Pria Lestari Hitam</td>
+    <td>2</td>
+    <td>Rp 200.000</td>
+    <td>Rp 400.000</td>
+    <td>Mei</td>
+    <td>Terjual</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>OUT1762589103</td>
+    <td>2025-11-08</td>
+    <td>Kemeja Sarimbit Biru</td>
+    <td>4</td>
+    <td>Rp 300.000</td>
+    <td>Rp 1.200.000</td>
+    <td>Mei</td>
+    <td>Terjual</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>OUT1762589217</td>
+    <td>2025-11-08</td>
+    <td>Batik Slimfit Merah</td>
+    <td>5</td>
+    <td>Rp 250.000</td>
+    <td>Rp 1.250.000</td>
+    <td>Mei</td>
+    <td>Terjual</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>OUT1762542217</td>
+    <td>2025-11-07</td>
+    <td>Batik Lengan Panjang Hitam</td>
+    <td>5</td>
+    <td>Rp 350.000</td>
+    <td>Rp 1.750.000</td>
+    <td>Firda</td>
+    <td>Terjual</td>
+  </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td colspan="6" align="right"><b>Total Keseluruhan</b></td>
+      <td colspan="3"><b>Rp 12.150.000</b></td>
+    </tr>
+  </tfoot>
+</table>
